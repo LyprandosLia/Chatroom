@@ -19,7 +19,6 @@ A simple **FastAPI chat application** with **WebSockets**, running inside **Dock
 
 ```bash
 docker build -t cafe-chat .
-Run the container:
 ```
 2. Run the container
 
