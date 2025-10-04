@@ -7,6 +7,7 @@ app = FastAPI()
 #ConnectionManager -> class that handles the connections
 class ConnectionManager:
     def __init__(self):
+        #
         self.active_connections: List[WebSocket] = []
     #function that adds a new connection to the WebSocket List (appends the list with the new connection)
     async def connect(self, websocket: WebSocket):
