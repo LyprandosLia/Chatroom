@@ -27,4 +27,4 @@ Run the container:
 docker run -d -p 8000:8000 cafe-chat
 ```
 
-3. Open your browser : ```bash http://localhost:8000/ ``` to run the project
+3. Open your browser : ``` http://localhost:8000/ ``` to run the project
